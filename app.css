@@ -74,6 +74,7 @@ h2.slogan {
     width: 100%;
     max-width: 540px;
     background-color:#e4e4e476 ;
+
     margin: 150px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 50px;
@@ -92,7 +93,7 @@ h2 {
 .todo-app h2 img {
     position: absolute;
     right: 0;
-    width: 60px;
+    width: 40px;
     margin-left: 20px;
 }
 
@@ -123,6 +124,17 @@ h2 {
 
 .row input::placeholder {
     color: #0d0c0c4b;
+}
+.row input[type="date"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff00;
 }
 
 .row button {

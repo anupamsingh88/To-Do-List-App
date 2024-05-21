@@ -1,5 +1,6 @@
-let listContainer = document.getElementById('list-container')
-let inputBox = document.getElementById('input-box')
+let listContainer = document.getElementById('list-container');
+let inputBox = document.getElementById('input-box');
+let datePicker = document.getElementById('date-picker');
 
 function enterApp() {
     document.getElementById('landing-page').style.display = 'none';
@@ -7,11 +8,17 @@ function enterApp() {
 }
 
 function addTask() {
-    if (inputBox.value == '') {
-        alert('Please Enter the Text');
+    if (inputBox.value === '') {
+        alert('Please enter the task');
+    } else if (datePicker.value === '') {
+        alert('Please select a date');
     } else {
         const task = document.createElement('li');
+        const taskDate = document.createElement('div');
+        taskDate.className = 'task-date';
+        taskDate.textContent = `Due: ${datePicker.value}`;
         task.textContent = inputBox.value;
+        task.appendChild(taskDate);
         listContainer.appendChild(task);
         let span = document.createElement('span');
         span.textContent = "\u00d7";
@@ -19,6 +26,7 @@ function addTask() {
         span.style.right = '0px';
     }
     inputBox.value = '';
+    datePicker.value = '';
     saveData();
 }
 
@@ -41,3 +49,4 @@ function showTask() {
 }
 
 showTask();
+
