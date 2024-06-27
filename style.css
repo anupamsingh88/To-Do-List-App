@@ -233,7 +233,7 @@ ul li span:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .landing-page h1 {
         font-size: 36px;
     }
