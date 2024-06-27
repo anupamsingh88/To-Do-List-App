@@ -325,9 +325,9 @@ ul li span:hover {
     }
 }
 
-@media (max-width: 200px){
+@media (max-width: 350px){
     .landing-page h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .landing-page p {
@@ -351,14 +351,9 @@ ul li span:hover {
     }
 
     .row input, .row button {
-        padding: 10px;
-        font-size: 16px;
+        font-size: 10px;
     }
     .row input[type="date"]{
-        flex: 1;
-        border: none;
-        outline: none;
-        background: transparent;
         font-size: 20px;
         font-weight: 600;
         letter-spacing: 1px;
