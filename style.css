@@ -74,7 +74,6 @@ h2.slogan {
     width: 100%;
     max-width: 540px;
     background-color:#e4e4e476 ;
-
     margin: 150px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 50px;
@@ -248,6 +247,7 @@ ul li span:hover {
         background-color:#e4e4e4d6 ;
     }
     body{
+        background-image: url(Assets/wp1904078.jpg);
         background-size: cover;
         object-fit: cover;
     }
@@ -268,7 +268,7 @@ ul li span:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 240px) {
     .landing-page h1 {
         font-size: 28px;
     }
