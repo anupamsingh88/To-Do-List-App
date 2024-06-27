@@ -232,3 +232,74 @@ ul li span:hover {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .landing-page h1 {
+        font-size: 36px;
+    }
+
+    .landing-page p {
+        font-size: 18px;
+    }
+
+    .todo-app {
+        padding: 30px 20px 50px;
+        margin: 100px auto 20px;
+        background-color:#e4e4e4d6 ;
+    }
+    body{
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .row input, .row input[type="date"], .row button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding: 10px 8px 10px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-page h1 {
+        font-size: 28px;
+    }
+
+    .landing-page p {
+        font-size: 16px;
+    }
+
+    .todo-app {
+        padding: 20px 10px 40px;
+        margin: 80px auto 20px;
+        background-color:#908f8fd6 ;
+
+    }
+    body{
+        background:rgba(245, 222, 179, 0.418);
+        
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .row input, .row input[type="date"], .row button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+        padding: 8px 8px 8px 30px;
+    }
+}
