@@ -268,38 +268,4 @@ ul li span:hover {
     }
 }
 
-@media (max-width: 240px) {
-    .landing-page h1 {
-        font-size: 28px;
-    }
 
-    .landing-page p {
-        font-size: 16px;
-    }
-
-    .todo-app {
-        padding: 20px 10px 40px;
-        margin: 80px auto 20px;
-        background-color:#908f8fd6 ;
-
-    }
-    body{
-        background:rgba(245, 222, 179, 0.418);
-        
-    }
-
-    h2 {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-
-    .row input, .row input[type="date"], .row button {
-        padding: 8px;
-        font-size: 14px;
-    }
-
-    ul li {
-        font-size: 14px;
-        padding: 8px 8px 8px 30px;
-    }
-}
