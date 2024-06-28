@@ -30,7 +30,6 @@ body {
 }
 
 h2.slogan {
-    background: #3333333e;
     border-radius: 10px;
     color: #142a72;
     animation: slideIn 2s ease-in-out;
