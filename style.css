@@ -13,6 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-image: url(Assets/wp1904078.jpg);
+    background: rgba(179, 191, 245, 0.596);
     background-size: cover;
 }
 
@@ -29,7 +30,9 @@ body {
 }
 
 h2.slogan {
-    color: #220c7b;
+    background: #3333333e;
+    border-radius: 10px;
+    color: #142a72;
     animation: slideIn 2s ease-in-out;
 }
 
@@ -73,7 +76,7 @@ h2.slogan {
 .todo-app {
     width: 100%;
     max-width: 540px;
-    background-color: #e4e4e476;
+    background-color: #e4e4e41a;
     margin: 150px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 50px;
@@ -98,7 +101,7 @@ h2 {
 
 .date-picker-container {
     display: flex;
-    width:250px;
+    width: 250px;
     height: 50px;
     flex-direction: column;
     margin-bottom: 20px;
@@ -260,12 +263,6 @@ ul li span:hover {
         background-color: #e4e4e4d6;
     }
 
-    body {
-        background-image: url(Assets/wp1904078.jpg);
-        background-size: cover;
-        object-fit: cover;
-    }
-
     h2 {
         font-size: 24px;
         margin-bottom: 40px;
@@ -281,6 +278,7 @@ ul li span:hover {
         font-size: 16px;
         padding: 10px 8px 10px 40px;
     }
+
     ul li::before {
         height: 20px;
         width: 20px;
@@ -303,11 +301,6 @@ ul li span:hover {
 
     }
 
-    body {
-        background: rgba(245, 222, 179, 0.418);
-
-    }
-
     h2 {
         font-size: 20px;
         margin-bottom: 30px;
@@ -320,7 +313,10 @@ ul li span:hover {
         height: 50px;
     }
 
-    .date-picker-container input, .row input, .row input[type="date"], .row button {
+    .date-picker-container input,
+    .row input,
+    .row input[type="date"],
+    .row button {
         padding: 2px;
         font-size: 14px;
     }
@@ -329,6 +325,7 @@ ul li span:hover {
         font-size: 14px;
         padding: 8px 8px 8px 30px;
     }
+
     ul li::before {
         height: 20px;
         width: 20px;
@@ -350,12 +347,6 @@ ul li span:hover {
         background-color: #e4e4e4d6;
     }
 
-    body {
-        background-image: url(Assets/wp1904078.jpg);
-        background-size: cover;
-        object-fit: cover;
-    }
-
     h2 {
         font-size: 24px;
         margin-bottom: 40px;
@@ -366,18 +357,23 @@ ul li span:hover {
         font-size: 10px;
     }
 
-    .date-picker-container input, .row {
+    .date-picker-container input,
+    .row {
         flex-direction: column;
         padding: 10px;
     }
 
-    .date-picker-container input, .row input, .row input[type="date"], .row button {
+    .date-picker-container input,
+    .row input,
+    .row input[type="date"],
+    .row button {
         width: 100%;
         margin-bottom: 10px;
         padding: 8px;
         font-size: 14px;
     }
-    .date-picker-container{
+
+    .date-picker-container {
         width: 100%;
         height: 50px;
     }
